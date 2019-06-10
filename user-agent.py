@@ -2,8 +2,7 @@ import requests as req
 from bs4 import BeautifulSoup
 import time
 
-#url = 'http://www.useragentstring.com/pages/useragentstring.php?name=Firefox'
-url = 'https://github.com/cvandeplas/pystemon/blob/master/user-agents.txt'
+url = 'http://www.useragentstring.com/pages/useragentstring.php?name=Firefox'
 
 def save(br,ua):
 	
