@@ -1,6 +1,8 @@
 # import requests as re, json, time, random, os
 # from bs4 import BeautifulSoup as bs
 # from UserAgentGetter.UserAgentGetter import UserAgentGetter
+# by A.Stoev
+# Modified by V.Varbanovski
 
 name = "UserAgentGetter"
 import requests as re, json, time, random, os
@@ -37,23 +39,3 @@ def UA():
        #a = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
        return a
 
-    #try:
-#    json_ua = open(os.path.join(os.path.dirname(__file__), "ua.json"), "r")
-#    ua = json.loads(json_ua.read())
-#    json_ua.close()
-    #except:
-     #   print("except")
-      #  self.newUA()
-       # file = open("ua.json", "r")
-        #ua = json.loads(file.read())
-        #file.close()
-    # print(ua['time']+60 < time.time())
-#    if ua['time']+3*30*24*60*60 < time.time():
-    #if ua['time']+60 < time.time():
-#        newUA()
-#    return ua[str(random.randint(0,len(ua)-2))]
-    # return ua[str(0)]
-
-#ua = UserAgentGetter()
-
-#print(ua.UA())
